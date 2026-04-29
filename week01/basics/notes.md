@@ -1,4 +1,15 @@
 ## Based on my personal understanding of the problem I did, the things that I undestand I right them in my own words. 
+# Git Workflows
+
+## Option 1 — Local → GitHub *(Beginner)*
+1. Create folder → `git init` → commit → push to GitHub
+
+g## Option 2 — GitHub → Local *(Team)*
+1. Create repo on GitHub → `git clone <url>` → code → push
+
+## Rule
+- Solo → `git init` first
+- Team → clone first
 
 This notes.md is created for future reference for me & aswell as for anyone going through my repo.
 
