@@ -45,6 +45,8 @@ while downloading a particular library other dependencies that the library relie
 
 data type of variables are defined before manual creation we donot need to do declare it
 
+---
+
 ## Day 3
 
 Boolean is another data type which logically gives output in True/False.
