@@ -44,3 +44,11 @@ while downloading a particular library other dependencies that the library relie
 ; is used to seperate the code the next line in language in py it is done already but incase you need to have two block of code in same link then ; is still needed
 
 data type of variables are defined before manual creation we donot need to do declare it
+
+## Day 3
+
+Boolean is another data type which logically gives output in True/False.
+
+Boolean interpets every non zero value as True (eg: 1, 34.32, hello) and every zero/none value as False (eg : 0, 0.0, {}, (), none). 
+
+We use f string if we want to display a varaible as an string inside print, it allows variable to act as a string.
