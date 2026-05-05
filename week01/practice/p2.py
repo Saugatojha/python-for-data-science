@@ -9,6 +9,10 @@ price_went_up = today_price > yesterday_price
 
 if price_went_up:
     print(f"The price of {stock_name} has increased")
-
+elif today_price==yesterday_price :
+    print(f"The price of {stock_name} has not changed")
 else:
     print(f"The price of {stock_name} has decreased")
+
+
+    
