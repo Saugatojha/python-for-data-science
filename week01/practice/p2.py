@@ -2,14 +2,13 @@
 # check if the price went up or down using bool, and display the result.
 
 stock_name = input("Enter the name of the stock: ")
-yesterday_stock_price = float(input("Enter the price of the stock: "))
-today_stock_price = float (input("Enter the price of the stock today: "))
-price_stock= yesterday_stock_price < today_stock_price
+yesterday_price = float(input("Enter the price of this stock yesterday: "))
+today_price = float(input("Enter the price of this stock today: "))
 
-# f string
-print("_________")
-print(f"Stock: {stock_name}")
-print(f"Today: {today_stock_price}")
-print(f"Yesterday: {yesterday_stock_price}")
+price_went_up = today_price > yesterday_price
 
-print(price_stock)
+if price_went_up:
+    print(f"The price of {stock_name} has increased")
+
+else:
+    print(f"The price of {stock_name} has decreased")
