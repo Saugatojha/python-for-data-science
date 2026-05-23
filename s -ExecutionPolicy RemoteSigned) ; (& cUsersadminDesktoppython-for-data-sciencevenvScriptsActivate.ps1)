@@ -1,0 +1,173 @@
+[33mcommit 372790834835cc14a4702f16428abb29a5b31452[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Fri May 22 23:55:41 2026 +0545
+
+    added sales dataset for ecommerce, imported os module and used os.listdir(path) to return files, and used pandas stored them in variables
+
+[33mcommit febba56a53528f70b7985c14de1fdb656096290b[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Fri May 22 23:16:48 2026 +0545
+
+    added df.tail(10) to check last 10 rows
+
+[33mcommit 5fd48ed7508e6a7548eb6feeaea6c8109ee93bc7[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Fri May 22 23:13:57 2026 +0545
+
+    used iloc to go through rows and columns, calculatd percentage return using conditional statements, and additionally calculated returns using .pct_change() for daily return for each trading session compared to previous trading session, then compared standard deviation showing the volatility of all these assests
+
+[33mcommit 7bdb22954a6836113cc0a668342f127694e4a0f8[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Fri May 22 16:44:27 2026 +0545
+
+    feat: add week02 pandas stock cleaning project
+
+[33mcommit b22d46ca9416a1d9e8a84a9fc7e20dd2b38e47cc[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Fri May 22 16:39:47 2026 +0545
+
+    added venv to .gitignore
+
+[33mcommit 5966f005fb3b1defe589d1480e6d538966095110[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Wed May 20 22:45:18 2026 +0545
+
+    Learned about os module and it's uses and how os.listdir access dir and returns files/folders inside dir
+
+[33mcommit 0780082f43e98cf75ccb147b75f39d6471d6ddf2[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Tue May 19 22:48:53 2026 +0545
+
+    Add beginner pandas notes for asset growth analysis
+
+[33mcommit 454be2f0ac3487982a11ddfb5428f078cae0c9fb[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Mon May 18 21:18:14 2026 +0545
+
+    feat: initial EDA on AMZN/DPZ/BTC/NFLX portfolio data (2013–2019)
+    
+    - Load dataset from Kaggle via kagglehub
+    - Inspect shape (1520 rows x 5 cols), dtypes, and null values
+    - Note NFLX column stored as str instead of float64 — needs fixing
+
+[33mcommit b637fcded6672623892fd2faf4f2e5487d95c2fb[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Tue May 12 23:19:12 2026 +0545
+
+    feat: solve supermarket billing WAP using lists, variables & conditionals
+    
+    - Created itemized billing system with parallel lists for item names and prices
+    - Implemented tiered discount logic (20% > ₹1000, 10% > ₹500, else no discount)
+    - Added membership discount (extra 5% off final amount)
+    - Fixed bug: member check was comparing string to integer (customer == 1)
+    - Fixed bug: member discount formula had double subtraction (total - total - 5%)
+    - Fixed bug: total_price accidentally overwritten with f-string instead of float
+    - Added round() to avoid floating point precision issues in output
+
+[33mcommit 4a2d87a306ea16c5cc22c259231cd791b4f7f85f[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Tue May 12 17:24:29 2026 +0545
+
+    added /datacleaning folders as git ignore as it is not relevant
+
+[33mcommit 30648651a253092904a36c7373a617282b80ac54[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Tue May 5 22:49:33 2026 +0545
+
+    Add NEPSE portfolio tracker using lists - append, remove, indexing, len
+
+[33mcommit 0e695a857910a2bd6b7acd09f2622083ec5728c3[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Tue May 5 18:49:39 2026 +0545
+
+    Add NEPSE loan eligibility checker with if/elif/else and type conversion
+
+[33mcommit 8f98964afe4686864ee4397bcb6d6de4c2b83550[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Tue May 5 18:28:24 2026 +0545
+
+    Used elif to add further logic when price of stock is equal
+
+[33mcommit a47676101a77a1cb83e989da4974a574666cdb69[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Tue May 5 18:10:39 2026 +0545
+
+    Add if/else stock price direction checker with boolean logic
+
+[33mcommit 58b3e838095b35fbf67804a84752e0966fefec81[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Tue May 5 17:35:34 2026 +0545
+
+    Add real estate price screener with float input and boolean check
+
+[33mcommit 9712df4251b1585851e5860708970449fc1d17d8[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Sat May 2 22:26:01 2026 +0545
+
+    used --- to format .md better
+
+[33mcommit dd05410e6daec342204e1664024b7d72017a4375[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Sat May 2 22:22:31 2026 +0545
+
+    Notes: Boolean is a day type taht gives logical output and gives decison when falsy value 0 and truthy value 1. if the value is non zero it's true if value is zero it's false. f string is used as a way to print variable as string
+
+[33mcommit 2f7a5f5af4a0715b80dfded49674bd7021aa676f[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Sat May 2 00:29:12 2026 +0545
+
+    feat: practice - variables, input, bool and f-strings
+    
+    - took user input for stock name and prices
+    - used float() to convert input strings to numbers
+    - used bool to check if stock price went up or down
+    - displayed results using f-strings
+    - learned why input() always returns string and needs manual conversion
+
+[33mcommit 12bce70210d6a149b2a76c70e9f7a1b1ece2301b[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Sat May 2 00:28:32 2026 +0545
+
+    learned boolean, boolean is not only 0 and 1 but truth and falsy with example, and used in real life scenario
+
+[33mcommit dcc8cb6695ac8a35ca96716ae3f5614a0392fa83[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Fri May 1 23:02:03 2026 +0545
+
+    Formatted .md file using good conventions for .md file and added daily section for each weeks' learning
+
+[33mcommit 9990788d4349d654ef7d23ad34f52ffc74accb2b[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Fri May 1 22:55:57 2026 +0545
+
+    created varaibles and asked user to give input and displayed output
+
+[33mcommit 48c8dfb093c63d5338d0a30f07bb809d5020f785[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Thu Apr 30 23:53:34 2026 +0545
+
+    learned: Variables in py
+
+[33mcommit c06d584cef7f2b526e313f09acf8d9a23333efc8[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Wed Apr 29 23:05:42 2026 +0545
+
+    pulled from github for latest update to match locally errorr was i added README.md mistakely from github
+
+[33mcommit df143b967c15b5fd90f757237091f208d3ad9154[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Wed Apr 29 23:03:02 2026 +0545
+
+    added: notes.md used for persoanal note taking
+
+[33mcommit b5214287d1355b6d4fe96ad40e2a7ab606a0fffc[m
+Author: Saugat Ojha <ojhasaugat81@gmail.com>
+Date:   Wed Apr 29 23:00:26 2026 +0545
+
+    added: matplotlib and the dependency coming with it
+
+[33mcommit 05c959c822421d1bf2634cca01b6cd6ecc1d62c0[m
+Author: Saugat Ojha <146552472+Saugatojha@users.noreply.github.com>
+Date:   Wed Apr 29 22:58:04 2026 +0545
+
+    Initial commit
